@@ -61,9 +61,9 @@
 		503C12DB1CF62017006DC756 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		503C12DD1CF6222B006DC756 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		504CC51A1CF6AA7000F33130 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
-		505125221CFD2F7E007F49DE /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		505125221CFD2F7E007F49DE /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = ReadMe.md; path = CarouselDemo/ReadMe.md; sourceTree = "<group>"; };
 		505125241CFD32AD007F49DE /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
-		505125261CFD3EB0007F49DE /* walkthrough.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = walkthrough.gif; sourceTree = "<group>"; };
+		505125261CFD3EB0007F49DE /* walkthrough.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = walkthrough.gif; path = CarouselDemo/walkthrough.gif; sourceTree = "<group>"; };
 		50B7EAD91CF9125B00DE9477 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedViewController.swift; path = ../FeedViewController.swift; sourceTree = "<group>"; };
 		50B7EADB1CF913AA00DE9477 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
 		50B7EADD1CF913C400DE9477 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversationsViewController.swift; path = ../ConversationsViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +97,8 @@
 		503C129D1CF61ED7006DC756 = {
 			isa = PBXGroup;
 			children = (
+				505125261CFD3EB0007F49DE /* walkthrough.gif */,
+				505125221CFD2F7E007F49DE /* ReadMe.md */,
 				503C12A81CF61ED7006DC756 /* CarouselDemo */,
 				503C12BD1CF61ED7006DC756 /* CarouselDemoTests */,
 				503C12C81CF61ED7006DC756 /* CarouselDemoUITests */,
@@ -117,7 +119,6 @@
 		503C12A81CF61ED7006DC756 /* CarouselDemo */ = {
 			isa = PBXGroup;
 			children = (
-				505125261CFD3EB0007F49DE /* walkthrough.gif */,
 				50B7EAD91CF9125B00DE9477 /* FeedViewController.swift */,
 				50B7EADB1CF913AA00DE9477 /* SettingsViewController.swift */,
 				50B7EADD1CF913C400DE9477 /* ConversationsViewController.swift */,
@@ -132,7 +133,6 @@
 				503C12B01CF61ED7006DC756 /* Assets.xcassets */,
 				503C12B21CF61ED7006DC756 /* LaunchScreen.storyboard */,
 				503C12B51CF61ED7006DC756 /* Info.plist */,
-				505125221CFD2F7E007F49DE /* ReadMe.md */,
 			);
 			path = CarouselDemo;
 			sourceTree = "<group>";
